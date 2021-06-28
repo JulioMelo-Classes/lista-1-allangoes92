@@ -13,6 +13,7 @@ using std::setprecision;
 
 // Se desejar, crie funções aqui, antes do main().
 
+/*não feita*/
 int main(void)
 {
     // TODO: Adicione aqui a sua solução.

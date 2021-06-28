@@ -15,6 +15,7 @@ using std::max;
 
 #include "function.h"
 
+/*muito bom!*/
 void verifica ( Ponto &A, Ponto &B)
 {
     Ponto aux;

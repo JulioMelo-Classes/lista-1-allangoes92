@@ -7,6 +7,7 @@
 
 location_t pt_in_rect( const Ponto &IE, const Ponto &SD, const Ponto &P )
 {
+    /*achei meio superdimensionados seus testes, mas ok*/
     if(P.x < IE.x || P.x > SD.x)
     {
         return location_t::OUTSIDE;
@@ -38,4 +39,6 @@ location_t pt_in_rect( const Ponto &IE, const Ponto &SD, const Ponto &P )
             return location_t::INSIDE;
         } 
     }
+
+    /*quando uma função não termina em return, o compilador assume que pode ser que ela chegue aqui, o que pode causar um seg fault*/
 }

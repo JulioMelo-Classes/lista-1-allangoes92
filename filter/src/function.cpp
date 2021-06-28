@@ -15,6 +15,10 @@ int * filter( int * first, int * last )
 {
     int* right = first;
     int* ret = first;
+    /*faltaram alguns casos
+      no caso de todos os valores serem negativos vc teria que retornar 'last'
+      o valor de ret deveria ser ret+1, mas está dando certo em alguns casos rsrsrs
+    */
     while (last >= right)
     {
         if (*right > 0)

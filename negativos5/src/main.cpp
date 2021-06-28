@@ -4,6 +4,7 @@ using std::cout;
 
 const int SIZE = 5; // input size.
 
+/*não precisava de um vetor, mas blz*/
 int main(void)
 {
     int V[SIZE];

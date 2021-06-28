@@ -5,6 +5,7 @@ using std::endl;
 
 int main( void )
 {
+        /*blz, bem que poderia usar umas funções alí no lugar de repetir código nos fors =)*/
     int m, n;
     while( cin >> std::ws >> m)
     {
